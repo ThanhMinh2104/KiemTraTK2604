@@ -8,6 +8,7 @@ import Header from './components/Header'
 import Navigation from './components/Navigation'
 import Banner from './components/Banner'
 import SidebarLeft from './components/SidebarLeft'
+import NewsSection from './components/NewsSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,8 @@ function App() {
       <Banner />
       {/* Cau5 */}
       <SidebarLeft />
+      {/* Cau6 */}
+      <NewsSection />
     </div>
   )
 }
