@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import '../src/style.css'
 import TopBar from './components/TopBar'
+import Header from './components/Header'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,8 @@ function App() {
     <div>
       {/* Cau 1 */}
       <TopBar />
+      {/* Cau 2 */}
+      <Header />
     </div>
   )
 }
