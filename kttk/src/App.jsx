@@ -12,6 +12,7 @@ import NewsSection from './components/NewsSection'
 import FooterLinks from './components/FooterLinks'
 import FooterContact from './components/FooterContact'
 import FooterStats from './components/FooterStats'
+import FooterSocial from './components/FooterSocial'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -36,6 +37,8 @@ function App() {
       <FooterContact />
       {/* Cau9 */}
       <FooterStats />
+      {/* Cau10 */}
+      <FooterSocial />
     </div>
   )
 }
