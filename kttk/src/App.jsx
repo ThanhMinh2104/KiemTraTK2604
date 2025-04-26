@@ -11,6 +11,7 @@ import SidebarLeft from './components/SidebarLeft'
 import NewsSection from './components/NewsSection'
 import FooterLinks from './components/FooterLinks'
 import FooterContact from './components/FooterContact'
+import FooterStats from './components/FooterStats'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,6 +34,8 @@ function App() {
       <FooterLinks />
       {/* Cau8 */}
       <FooterContact />
+      {/* Cau9 */}
+      <FooterStats />
     </div>
   )
 }
