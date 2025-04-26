@@ -9,6 +9,7 @@ import Navigation from './components/Navigation'
 import Banner from './components/Banner'
 import SidebarLeft from './components/SidebarLeft'
 import NewsSection from './components/NewsSection'
+import FooterLinks from './components/FooterLinks'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,8 @@ function App() {
       <SidebarLeft />
       {/* Cau6 */}
       <NewsSection />
+      {/* Cau7 */}
+      <FooterLinks />
     </div>
   )
 }
