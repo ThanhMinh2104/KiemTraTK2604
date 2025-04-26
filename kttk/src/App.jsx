@@ -7,6 +7,7 @@ import TopBar from './components/TopBar'
 import Header from './components/Header'
 import Navigation from './components/Navigation'
 import Banner from './components/Banner'
+import SidebarLeft from './components/SidebarLeft'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,8 @@ function App() {
       <Navigation />
       {/* Cau4 */}
       <Banner />
+      {/* Cau5 */}
+      <SidebarLeft />
     </div>
   )
 }
