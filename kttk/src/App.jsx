@@ -10,6 +10,7 @@ import Banner from './components/Banner'
 import SidebarLeft from './components/SidebarLeft'
 import NewsSection from './components/NewsSection'
 import FooterLinks from './components/FooterLinks'
+import FooterContact from './components/FooterContact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +31,8 @@ function App() {
       <NewsSection />
       {/* Cau7 */}
       <FooterLinks />
+      {/* Cau8 */}
+      <FooterContact />
     </div>
   )
 }
