@@ -5,6 +5,7 @@ import './App.css'
 import '../src/style.css'
 import TopBar from './components/TopBar'
 import Header from './components/Header'
+import Navigation from './components/Navigation'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,8 @@ function App() {
       <TopBar />
       {/* Cau 2 */}
       <Header />
+      {/* Cau3 */}
+      <Navigation />
     </div>
   )
 }
